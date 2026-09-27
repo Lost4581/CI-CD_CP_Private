@@ -86,7 +86,7 @@ jobs:
       - name: Deploy to GitHub Pages repo
         uses: peaceiris/actions-gh-pages@v4
         with:
-          external_repository: user-name/public-repo-name #вставьте "адрес" вашего публичного репо в таком формате
+          external_repository: Lost4581/CI-CD_CP_Public #вставьте "адрес" вашего публичного репо в таком формате
           publish_dir: dist
           publish_branch: gh-pages #вставьте название вашей целевой ветки для билда в публичном репо
           deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }} #название deploy key с ssh из публичного репо
